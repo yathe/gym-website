@@ -1,0 +1,97 @@
+body{
+    margin:0px;
+    padding:0px;
+    background:url("gym.png");
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+.left{
+/* border:2px solid orange; */
+display:inline-block;
+position:absolute;
+left: 32px;
+top: 19px;
+}
+.left img {
+    width: 100px;
+    height: 66px;
+    margin: auto 18px;
+}
+.left div{
+    text-align: center;
+    color: rgb(249 249 211);
+    font-size: 32px;
+    line-height: 31px;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size:24px;
+}
+.navbar li a{
+    color: rgb(58, 58, 10);
+    text-decoration: none;
+    /* padding: 34px 23px; */
+    padding:4px 17px;
+}
+.navbar li a:hover,.navbar li a.active{
+    text-decoration: underline;
+    color:orangered;
+}
+.mid{
+    /* border:2px solid  rgb(58, 27, 48); */
+    display: block;
+    margin: 20px auto;
+    width: 578px;
+    height: 63px;
+
+}
+.right{
+    /* border:2px solid green; */
+    display:inline-block;
+    position: absolute;
+    right: 34px;
+    top:32px;
+}
+.btn{
+    margin: 0px 9px;
+    background-color: black;
+    color: cornsilk;
+    padding: 4px 14px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.btn:hover{
+    background-color: rgb(46, 45, 45);
+}
+.container{
+    border: 2px solid white;
+    margin: 107px 62px;
+    padding: 39px;
+    width: 38%;
+    border-radius: 23px;
+}
+.container h1{
+    text-align: center;
+}
+.container button {
+    display: block;
+    width: 432px;
+    margin: 20px auto;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 422px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 8px auto;
+    font-size: 25px;
+    border-radius: 8px;
+    font-family: 'Bebas Neue', sans-serif;
+}
